@@ -73,14 +73,14 @@
     background-image: url('../images/backgraund.png');
     background-size: cover;
     background-repeat: no-repeat;
-    height:650px;
+    height:700px;
     color:white;
-    justify-content: center;
+    justify-content: space-between;
     font-family: HelveticaNeue;
 }
 
 .header-text {
-    padding-left: 180px;
+    padding-left: 260px;
 }
 
 .header-big-text
@@ -106,10 +106,6 @@
     
 }
 
-.header-sale,  .header-images{
-    width:40%;
-}
-
 .yellow-button
 {
     background: #ffdc00;
@@ -133,21 +129,21 @@
     
 }
 .timer-number{
-    width: 25px;
-    height: 47px;
+    width: 24px;
+    height: 46px;
     border-radius: 9px;
     background:#333333;
     margin-right:10px;
     font-size: 39px;
     margin-top: 8px;
     padding:10px;
-    border-radius: 15px;
     display:inline-block;
 }
 
 .header-images {
     display: flex;
     padding-top: 140px;
+    padding-right: 220px;
     align-items: flex-start;
     flex-direction: column;
 }
@@ -198,6 +194,36 @@ h2 {
     margin:0 auto;
     background:#ffdc00;
     border:none;
-    color:#ffdc00;
     height:2px;
 }  
+
+.main-row-1 {
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-between;
+}
+
+.photo-mirror {
+    padding-right: 260px;
+}
+
+.yellow-line-left
+{
+    width:10%;
+    background:#ffdc00;
+    border:none;
+    height:2px;
+    display: block;
+}  
+
+
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+.video-border {
+    width: 636px;
+    height: 380px;
+    position: absolute;
+}
