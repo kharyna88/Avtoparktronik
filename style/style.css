@@ -211,6 +211,7 @@ h3 {
     display: flex;
     padding-top: 20px;
     justify-content: space-between;
+    
 }
 
 .photo-mirror {
@@ -304,7 +305,7 @@ h3 {
 }
 
 .reasons {
-width: 25%;
+width: 235px;
 }
 
 .reason-img , .reason-header, .reason-text {
@@ -332,4 +333,88 @@ width: 25%;
     letter-spacing: 0.5px;
     color: #8b8b8b;
     padding-top: 20px;
+}
+
+.saving {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.damage {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.saving-text {
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.text-bolt {
+    font-weight: bold;
+}
+
+.img-girl {
+    width: 460px;
+    height: 300px;
+}
+
+.pd-top-20 {
+    padding-top: 20px;
+}
+
+.car-back {
+    width: 250px;
+    height: 140px;
+    padding-right: 20px;
+}
+
+.car-back-2 {
+    width: 190px;
+    height: 140px;
+}
+
+.mirror {
+    display: flex;
+    justify-content: center; 
+    padding-top: 29px;
+}
+
+.plus {
+    font-size: 78px;
+    font-weight: bold;
+    line-height: 0.5;
+    text-align: left;
+    padding-left: 50px;
+    color: #ffe74f;
+    position: absolute;
+}
+
+.arrow {
+    font-size: 78px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffe74f;
+}
+
+.yellow-cirle {
+    background:#ffe74f;
+    border: 1.5px solid black;
+}
+
+.yellow-cirle-2 {
+    background:#ffe74f;
+    border: 1.5px solid #ffe74f;
+}
+
+
+
+footer {
+    width: auto;
+    height: 120px;
+    background: #333333;
 }
