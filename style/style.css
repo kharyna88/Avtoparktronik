@@ -41,8 +41,8 @@
     font-size: 30px;
     font-weight: bold;
     font-style: normal;
-    line-height: 0.93;
-    letter-spacing: 2.4px;
+    line-height: 1;
+    letter-spacing: 2px;
     text-align: left; 
     display: flex;
 }
@@ -54,17 +54,29 @@
 .magazyn {
     font-family: HelveticaNeue;
     font-size: 14px;
-    letter-spacing: 1.12px;
+    letter-spacing: 1px;
     text-align: left;
     color: #6f6f6f;
 }
 
+.numder-phone {
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: right;
+    padding-bottom: 4px;
+}
 
 .button-call {
     width: 200px;
     height: 40px;
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
     border-radius: 10px;
-    color: #cdcdcd;
+    color: white;
     background: #333333;
 }
  
@@ -135,9 +147,10 @@
     height: 46px;
     border-radius: 9px;
     background:#333333;
+    color: white;
     margin-right:10px;
     font-size: 39px;
-    margin-top: 8px;
+    text-align: center;
     padding:10px;
     display:inline-block;
 }
@@ -163,19 +176,22 @@
 }
 
 .c123 {
-    width: 25px;
+    width: 20px;
     height: 45px; 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
+.car-number {
+    border: solid 4px #ffdc00;
+}
+
 .circle {
     width: 12px;
     height: 12px;
     background:#333333;
-    border-radius: 50%;
-   
+    border-radius: 50%; 
 }
 
 main {
@@ -197,6 +213,20 @@ h3 {
     font-size: 22px;
     letter-spacing: 2px; 
 }
+
+h4 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    letter-spacing: 1px; 
+}
+
+li {
+    font-size: 13px;
+    line-height: 1.8;
+    text-align: left;
+}
+
+
 
 .yellow-line
 {
@@ -281,10 +311,6 @@ h3 {
     height:2px;
     display: block;
 }  
-
-.pading-20 {
-    padding-top: 35px;
-}
 
 .btn-position {
     display: flex;
@@ -395,10 +421,59 @@ width: 235px;
     position: absolute;
 }
 
+.feedback-text {
+    font-size: 13px;
+    line-height: 1.7;
+    text-align: left;
+    padding-left: 25px;
+}
+
+.feedback-cirle {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+.feedback-cirle .circle {
+    margin-left: 10px;
+}
+
+.feedback .damage {
+    justify-content: flex-end;
+    padding-top: 5px;
+}
+
+.guarantee {
+    font-size: 13px;
+    line-height: 5;
+    text-align: left;
+}
+
+.user-text{
+    font-weight: bold; 
+}
+
+.user-text-2{
+    color: #9c9c9c;
+    font-style: italic;
+    font-weight: 300;
+}
+
 .arrow {
     font-size: 78px;
     font-family: Arial, Helvetica, sans-serif;
     color: #ffe74f;
+    text-align: center;
+    margin-top: 55px;
+}
+
+.pd-left-15 {
+    padding-left: 15px;
+}
+
+.pd-right-15 {
+    padding-right: 15px;
 }
 
 .yellow-cirle {
@@ -411,10 +486,86 @@ width: 235px;
     border: 1.5px solid #ffe74f;
 }
 
+ul {
+    padding-left: 17px;
+}
 
+li {
+    padding-left: 20px;  
+   }
+
+.delivery {
+    width: 50%;
+}
+
+div .delivery:nth-child(2) {
+    padding-left: 65px;
+}
+
+
+.rotate-img .mirror img{
+    transform: scale(1, -1);
+    width: 274px;
+    height: 170px;
+   }
+
+.mirror-2 img{
+    transform: scale(-1, 1);
+    width: 324px;
+    height: 130px;
+   }
+   
+
+.headerPrice img{
+   padding-top: 100px; 
+   position: absolute;
+}
+
+.rotate-img .plus {
+    padding-left: 260px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form .timer {
+padding-left: 20px;
+margin-top: 30px;
+}
+
+.form .timer-number {
+    width: 26px;
+    border-radius: 6px;
+    margin-right:8px;
+    font-size: 34px;
+    padding:5px;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    border: solid 1px black;
+    background: white;
+    color: #9a9a9a;
+    padding-left: 30px;
+    margin-top: 30px;
+}
+
+.pading-35 {
+    padding-top: 35px;
+}
+
+.pading-50 {
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
 
 footer {
     width: auto;
     height: 120px;
     background: #333333;
 }
+
