@@ -93,6 +93,12 @@
 
 .header-text {
     padding-left: 260px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-position {
+    height: 200px;
 }
 
 .header-big-text
@@ -317,6 +323,10 @@ li {
     justify-content: center;
 }
 
+video {
+    width: 632px;
+    height: 376px;
+}
 
 .video {
     display: flex;
@@ -329,6 +339,7 @@ li {
     height: 380px;
     position: absolute;
 }
+
 
 .reasons {
 width: 235px;

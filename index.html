@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Магазин автоэлекторнини AUTO SHOP</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/style-mobile.css">
 </head>
 
 <body>
@@ -23,38 +24,46 @@
 
     <header class="header">
         <section class="header-text">
-            <h1 class="header-big-text">ВИДЕОПАРКТРОНИК - <br>
-                <span class="yellow-text"> АВТОНОВИНКА 2017</span> ГОДА
-            </h1>
-            <p class="header-small-text">
-                <span class="yellow-text bolt-text">Закажите </span>видеопарктроник <br>
-                <span class="yellow-text bolt-text">до конца дня и получите <br>в подарок</span>
-                солнцезащитный козырек!
-            </p>
-            <div class="timer">
-                <div class="timer-number">1</div>
-                <div class="timer-number">5</div>
-                <div class="c123">
-                    <div class="circle"></div>
-                    <div class="circle"></div>
+            <div class="header-position">
+                <h1 class="header-big-text">ВИДЕОПАРКТРОНИК - <br>
+                    <span class="yellow-text"> АВТОНОВИНКА 2017</span> ГОДА
+                </h1>
+                <p class="header-small-text">
+                    <span class="yellow-text bolt-text">Закажите </span>видеопарктроник <br>
+                    <span class="yellow-text bolt-text">до конца дня и получите <br>в подарок</span>
+                    солнцезащитный козырек!
+                </p>
+            </div>
+            <div class="header-position">
+                <div class="header-images">
+                    <img class="mirror-image" src="images/headerGlass.png" alt="Видеопарктроник">
+                    <img class="mirror-price" src="images/headerPrice.png" alt="Цена 3999 рублей">
+                </div>
+            </div>
+            <div>
+                <div class="timer">
+                    <div class="timer-number">1</div>
+                    <div class="timer-number">5</div>
+                    <div class="c123">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
 
+                    </div>
+                    <div class="timer-number">5</div>
+                    <div class="timer-number">2</div>
+                    <div class="c123">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+                    <div class="timer-number">0</div>
+                    <div class="timer-number">5</div>
                 </div>
-                <div class="timer-number">5</div>
-                <div class="timer-number">2</div>
-                <div class="c123">
-                    <div class="circle"></div>
-                    <div class="circle"></div>
-                </div>
-                <div class="timer-number">0</div>
-                <div class="timer-number">5</div>
+
+                <button class="yellow-button">ЗАКАЗАТЬ</button>
             </div>
 
-            <button class="yellow-button">ЗАКАЗАТЬ</button>
         </section>
-        <div class="header-images">
-            <img class="mirror-image" src="images/headerGlass.png" alt="Видеопарктроник">
-            <img class="mirror-price" src="images/headerPrice.png" alt="Цена 3999 рублей">
-        </div>
+
     </header>
     <main>
         <h2><span class="yellow-text">ХАРАКТЕРИСТИКИ </span> ВИДЕОПАРКТРОНИКА</h2>
@@ -157,7 +166,7 @@
         <hr class="yellow-line">
         <div class="video">
             <img src="images/video-border.png" alt="" class="video-border">
-            <video width="632" height="376" controls>
+            <video  controls>
                 <source src="video/BMW Vision Self Driving Car.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -200,17 +209,22 @@
                 </div>
             </div>
             <div>
-                <div class="feedback-text" >Опять долгие ночи в интернете в поисках обзоров и сравнений… Проблема таких устройств что у них
+                <div class="feedback-text">Опять долгие ночи в интернете в поисках обзоров и сравнений… Проблема таких
+                    устройств что у них
                     либо дизайн уродский огромный — в полтора раза больше штатного, а я вообще не люблю заднее зеркало,
-                    так как за 3 года вождения рабочих "каблучков" типа Кангу и Берлинго вообще привык без него обходится,
-                    либо тех. данные никакие — камеры очень плохого качества… Уже думал что печаль… :( Но вот за пару дней
-                    поисков наткнулся на то о чем мечтал действительно — HD Recorder. Нашел его у одного из драйвечан, и у
+                    так как за 3 года вождения рабочих "каблучков" типа Кангу и Берлинго вообще привык без него
+                    обходится,
+                    либо тех. данные никакие — камеры очень плохого качества… Уже думал что печаль… :( Но вот за пару
+                    дней
+                    поисков наткнулся на то о чем мечтал действительно — HD Recorder. Нашел его у одного из драйвечан, и
+                    у
                     других.
                     Все в восторге от данного устройства. Качество видео очень хорошее, в машине не видно его вообще,
                     крепления на штатное зеркало любой машины, вообщем то что доктор прописал!</div>
-                <div class="damage" >
+                <div class="damage">
                     <div> <img src="images/photo.png" alt="photo"> </div>
-                    <div class="user-text pd-top-20" >Константин, <span class="user-text-2" >г. Днепропетровск</span> </div>
+                    <div class="user-text pd-top-20">Константин, <span class="user-text-2">г. Днепропетровск</span>
+                    </div>
                 </div>
 
             </div>
@@ -228,7 +242,7 @@
                 <li>Если вы получили товар и он вам не понравился, мы гарантируем возврат или обмен в течение 14 дней.
                 </li>
             </ul>
-            <span class="guarantee" >Мы заботимся о своей репутации, клиенты для нас на первом месте! </span>
+            <span class="guarantee">Мы заботимся о своей репутации, клиенты для нас на первом месте! </span>
         </div>
 
         <div class="main-row-1 header-text pading-right">
@@ -263,7 +277,8 @@
                     <li>Курьером по Москве от <span class="user-text"> 250 руб.</span></li>
                     <li>Курьером по Санкт Петербургу от 200 руб.</li>
                     <li>Сроки доставки <span class="user-text"> 1-2 дня.</span></li>
-                    <li>Вы также можете забрать и оплатить свой заказ в пункте самовывоза. <span class="user-text">Стоимость 100 руб.</span></li>
+                    <li>Вы также можете забрать и оплатить свой заказ в пункте самовывоза. <span
+                            class="user-text">Стоимость 100 руб.</span></li>
                     <li>Ближайший к Вам адрес самовывоза уточняйте по телефону.</li>
                     <li>Оплата производится наличными при получении.</li>
                     <li>У Вам есть уникальная возможность вскрыть посылку до ее оплаты!</li>
