@@ -9,7 +9,17 @@
     src: url('../fonts/helveticaneue.ttf');
     font-weight: normal;
     font-style: normal;
-    }
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.all-contant {
+    max-width: 1680px;
+}
 
 .nav-menu {
     background: #ffdc00;
@@ -74,10 +84,17 @@
     font-family: HelveticaNeue;
     font-size: 14px;
     font-weight: 300;
-    letter-spacing: 1px;
     border-radius: 10px;
     color: white;
     background: #333333;
+    transition: all 0.3s linear;
+}
+
+.button-call:hover
+{
+    cursor: pointer;
+    background: #5a5900;
+    
 }
  
 .header {
@@ -93,6 +110,9 @@
 
 .header-text {
     padding-left: 260px;
+}
+
+.dsp-wrap {
     display: flex;
     flex-wrap: wrap;
 }
@@ -134,7 +154,15 @@
     margin-top: 40px;
     border-radius:10px;
     line-height: 1.5;
-  letter-spacing: 0.96px;
+    letter-spacing: 0.96px;
+    transition: all 0.3s linear;
+}
+
+.yellow-button:hover
+{
+    cursor: pointer;
+    background: #c05701;
+    color:#0a0505;
 }
 
 .timer
@@ -478,6 +506,7 @@ width: 235px;
     text-align: center;
     margin-top: 55px;
 }
+
 
 .pd-left-15 {
     padding-left: 15px;
