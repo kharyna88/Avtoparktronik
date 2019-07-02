@@ -12,13 +12,16 @@
 }
 
 body {
+    font-family: HelveticaNeue;
     display: flex;
     justify-content: center;
     overflow-x: hidden;
 }
 
+
 .all-contant {
     max-width: 1680px;
+
 }
 
 .nav-menu {
@@ -228,10 +231,6 @@ body {
     border-radius: 50%; 
 }
 
-main {
-    font-family: HelveticaNeue;
-}
-
 h2 {
     margin-top: 40px;
     margin-bottom: 20px;
@@ -259,7 +258,6 @@ li {
     line-height: 1.8;
     text-align: left;
 }
-
 
 
 .yellow-line

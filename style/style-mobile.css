@@ -1,10 +1,18 @@
 
 @media all and (max-width: 800px) {
 
+    body {
+        overflow-x: hidden;
+    }
+
+    .all-contant {
+        max-width: 800px;
+        min-width: 320px;
+    }
+
     .nav-s1 {
         padding-top: 27px;
-        padding-left: 25px;
-    
+        padding-left: 100px;
     }
     
     .nav-s2 {
@@ -12,36 +20,15 @@
     }
     
     .shop {
-        font-family: HelveticaNeue;
-        font-size: 30px;
-        font-weight: bold;
-        font-style: normal;
-        line-height: 1;
-        letter-spacing: 2px;
-        text-align: left; 
-        display: flex;
-    }
-    
-    .auto {
-        font-weight: 300;
+        font-size: 28px;
     }
     
     .magazyn {
-        font-family: HelveticaNeue;
-        font-size: 14px;
-        letter-spacing: 1px;
-        text-align: left;
-        color: #6f6f6f;
+        font-size: 14px; 
     }
     
     .header {
-        display:flex;
-        background-image: url('../images/backgraund.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-        height:700px;
-        color:white;
-        font-family: HelveticaNeue;
+ 
         justify-content: center;
     }
     
@@ -52,6 +39,7 @@
     .dsp-wrap {
         display: initial ;
         flex-wrap: initial ;
+        padding: 45px 0;
     }
     
     .header-big-text
@@ -64,8 +52,6 @@
         padding-top: 40px;
         
     }
-    .yellow-text { color:#ffdc00; }
-    .bolt-text {font-weight: bold; }
     
     .header-small-text
     {
@@ -78,73 +64,82 @@
     }
     
     .yellow-button{
-        font-family: HelveticaNeue;
-        background: #ffdc00;
-        width:300px;
-        height:70px;
-        font-size: 24px;
-        font-weight: bold;
-        margin-top: 40px;
-        margin-left: 55px;
-        border-radius:10px;
-        line-height: 1.5;
-      letter-spacing: 0.96px;
+        margin-left: 10px;
     }
     
-    .timer
-    {
-        display:flex;
-        justify-content: flex-start;
-        flex-grow: 1;
-        flex-wrap: nowrap;
-        flex-shrink: 1;
-        align-items: center;
-        margin-top: 105px;
-        margin-left: 25px;
-        
+    .timer {
+        margin-top: 51px;
+        margin-left: 10px;
     }
-    .timer-number{
-        width: 24px;
-        height: 46px;
-        border-radius: 9px;
-        background:#333333;
-        color: white;
-        margin-right:10px;
-        font-size: 39px;
-        text-align: center;
-        padding:10px;
-        display:inline-block;
+
+    .timer-number {
+        width: 18px;
+        margin-right: 7px;
+        font-size: 38px;
     }
     
     .header-images {
-        display: flex;
-        padding-top: 60px;
-        padding-right: 50px;
-        align-items: flex-start;
-        flex-direction: column;
+        padding-top: 30px;
+        padding-right: initial;
     }
     
     .mirror-image {
-        width: 376px;
-        height: 150px;
+        width: 290px;
+        height: 130px;
         padding-left: 10px;
-        padding-top: 10px;
+        padding-top: 16px;
     }
     
     .mirror-price {
-        padding-left: 270px;
+        padding-left: 200px;
+        width: 100px;
         padding-top: 68px;
         position: absolute;
     }
-    
-    .c123 {
-        width: 20px;
-        height: 45px; 
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+
+    h2 {
+        font-size: 20px;
+        margin-top: 20px;
     }
     
+    h3 {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 22px;
+        letter-spacing: 2px; 
+    }
+    
+    h4 {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        letter-spacing: 1px; 
+    }
+    
+    li {
+        font-size: 13px;
+        line-height: 1.8;
+        text-align: left;
+    }
+    
+    .charect-width-1, .charect-width-2 {
+        width: 90%;
+    }
+    .charect-pading-2 {
+        padding-left: initial;
+    }
+
+    .characteristics {
+        padding-left: 35%;
+        box-sizing: border-box;
+    }
+    
+    .photo-mirror {
+         padding-right: initial; 
+        display: flex;
+        justify-content: center;
+    }
+
     .car-number {
         border: solid 4px #ffdc00;
     }
@@ -187,3 +182,39 @@
     }
 
 
+    @media all and (max-width: 320px) {
+
+        .nav-s1 {
+            padding-top: 27px;
+            padding-left: 25px;
+        }
+
+        .shop {
+            font-size: 28px;
+        }
+
+        .magazyn {
+            font-size: 11px; 
+        }
+
+        .dsp-wrap {
+            width: 320px;
+        }
+
+         .header-big-text
+    {
+        font-size: 20px;
+        padding-left: 10px;
+        }
+
+        .header-small-text {
+            font-size: 16px;
+            letter-spacing: 0.5px;
+            padding-left: 10px;
+        }
+
+        .characteristics {
+            padding-left: 10%;
+            box-sizing: border-box;
+        }
+    }
