@@ -257,17 +257,25 @@ li {
     font-size: 13px;
     line-height: 1.8;
     text-align: left;
+    padding-left: 20px; 
 }
 
 
-.yellow-line
-{
+.yellow-line {
     width:18%;
     margin:0 auto;
     background:#ffdc00;
     border:none;
     height:2px;
 }  
+
+.line-mobile {
+    display: none;
+}
+
+.line-destop {
+    display: block;
+}
 
 .main-row-1 {
     display: flex;
@@ -326,12 +334,8 @@ li {
     padding-top: 20px;
     font-family: HelveticaNeue;
     font-size: 14px;
-    font-weight: 300;
     font-style: italic;
-    font-stretch: normal;
     line-height: 2;
-    letter-spacing: 0.18px;
-    text-align: left;
     color: #9a9a9a;
 }
 
@@ -414,7 +418,6 @@ width: 235px;
 .saving-text {
     font-size: 18px;
     line-height: 1.5;
-    letter-spacing: 0.2px;
     text-align: center;
 }
 
@@ -458,6 +461,10 @@ width: 235px;
     position: absolute;
 }
 
+.feedback-mobile {
+    display: none;
+}
+
 .feedback-text {
     font-size: 13px;
     line-height: 1.7;
@@ -476,7 +483,7 @@ width: 235px;
     margin-left: 10px;
 }
 
-.feedback .damage {
+.feedback-desktop .damage {
     justify-content: flex-end;
     padding-top: 5px;
 }
@@ -528,10 +535,7 @@ ul {
     padding-left: 17px;
 }
 
-li {
-    padding-left: 20px;  
-   }
-
+ 
 .delivery {
     width: 50%;
 }
@@ -569,7 +573,6 @@ div .delivery:nth-child(2) {
 }
 
 .form .timer {
-padding-left: 20px;
 margin-top: 30px;
 }
 
@@ -588,6 +591,7 @@ input {
     border: solid 1px black;
     background: white;
     color: #9a9a9a;
+    box-sizing: border-box;
     padding-left: 30px;
     margin-top: 30px;
 }
@@ -606,4 +610,6 @@ footer {
     height: 120px;
     background: #333333;
 }
+
+
 
