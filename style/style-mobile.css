@@ -368,7 +368,7 @@
     
 }
 
-    @media all and (max-width: 320px) {
+    @media all and (max-width: 600px) {
 
         .nav-s1 {
             padding-left: 25px;
