@@ -545,10 +545,12 @@ div .delivery:nth-child(2) {
 }
 
 
-.rotate-img .mirror img{
+.mirror-r {
     transform: scale(1, -1);
     width: 274px;
     height: 170px;
+    padding-bottom: 28px;
+    padding-top: initial;
    }
 
 .mirror-2 img{
@@ -558,9 +560,10 @@ div .delivery:nth-child(2) {
    }
    
 
-.headerPrice img{
+.headerPrice {
    padding-top: 100px; 
    position: absolute;
+   padding-left: 275px;
 }
 
 .rotate-img .plus {
